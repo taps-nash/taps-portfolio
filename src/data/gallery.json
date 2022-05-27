@@ -1,0 +1,78 @@
+[
+	{
+		"id": 1,
+		"name": "BookSyNation",
+		"pictures": [
+			"/src/assets/bookcine/bookcine0.svg",
+			"/src/assets/bookcine/bookcine1.svg",
+			"/src/assets/bookcine/bookcine2.svg",
+			"/src/assets/bookcine/bookcine3.svg",
+			"/src/assets/bookcine/bookcine4.svg",
+			"/src/assets/bookcine/bookcine5.svg"
+		]
+	},
+	{
+		"id": 2,
+		"name": "WhiteList Inc.",
+		"pictures": [
+			"/src/assets/whitelist/whitelist0.svg",
+			"/src/assets/whitelist/whitelist1.svg",
+			"/src/assets/whitelist/whitelist2.svg",
+			"/src/assets/whitelist/whitelist3.svg",
+			"/src/assets/whitelist/whitelist4.svg",
+			"/src/assets/whitelist/whitelist5.svg",
+			"/src/assets/whitelist/whitelist6.svg",
+			"/src/assets/whitelist/whitelist7.svg",
+			"/src/assets/whitelist/whitelist8.svg",
+			"/src/assets/whitelist/whitelist9.svg",
+			"/src/assets/whitelist/whitelist10.svg",
+			"/src/assets/whitelist/whitelist11.svg",
+			"/src/assets/whitelist/whitelist12.svg",
+			"/src/assets/whitelist/whitelist13.svg",
+			"/src/assets/whitelist/whitelist14.svg",
+			"/src/assets/whitelist/whitelist15.svg",
+			"/src/assets/whitelist/whitelist16.svg"
+		]
+	},
+	{
+		"id": 3,
+		"name": "Datagrades v2.0",
+		"pictures": [
+			"/src/assets/datagrades2/datagrades0.svg",
+			"/src/assets/datagrades2/datagrades1.svg",
+			"/src/assets/datagrades2/datagrades2.svg",
+			"/src/assets/datagrades2/datagrades3.svg",
+			"/src/assets/datagrades2/datagrades4.svg",
+			"/src/assets/datagrades2/datagrades5.svg",
+			"/src/assets/datagrades2/datagrades6.svg",
+			"/src/assets/datagrades2/datagrades7.svg",
+			"/src/assets/datagrades2/datagrades8.svg",
+			"/src/assets/datagrades2/datagrades9.svg",
+			"/src/assets/datagrades2/datagrades10.svg",
+			"/src/assets/datagrades2/datagrades11.svg",
+			"/src/assets/datagrades2/datagrades12.svg",
+			"/src/assets/datagrades2/datagrades13.svg",
+			"/src/assets/datagrades2/datagrades14.svg"
+		]
+	},
+	{
+		"id": 4,
+		"name": "AltruWiz",
+		"pictures": [
+			"/src/assets/altruwiz/altruwiz0.svg",
+			"/src/assets/altruwiz/altruwiz1.svg",
+			"/src/assets/altruwiz/altruwiz2.svg",
+			"/src/assets/altruwiz/altruwiz3.svg",
+			"/src/assets/altruwiz/altruwiz4.svg",
+			"/src/assets/altruwiz/altruwiz5.svg",
+			"/src/assets/altruwiz/altruwiz6.svg",
+			"/src/assets/altruwiz/altruwiz7.svg",
+			"/src/assets/altruwiz/altruwiz8.svg",
+			"/src/assets/altruwiz/altruwiz9.svg",
+			"/src/assets/altruwiz/altruwiz10.svg",
+			"/src/assets/altruwiz/altruwiz11.svg",
+			"/src/assets/altruwiz/altruwiz12.svg",
+			"/src/assets/altruwiz/altruwiz13.svg"
+		]
+	}
+]

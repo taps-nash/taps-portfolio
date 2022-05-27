@@ -1,0 +1,31 @@
+[
+	{
+		"id": 1,
+		"name": "Datagrades v2.0",
+		"icon": "/src/assets/datagrades.svg",
+		"description": [
+			"The DataGrades app is a student grade management system that is proposed as an alternative system for computation and distribution of student grades to replace the current grade management system. This project is a modern adaptation of my past v1.0 version of Datagrades. Datagrades 2.0 is designed to be developed using Flutter along with Firebase as its authentication and database solution. The student user interface of this app is expected to operate on the mobile, desktop, and web platforms, while the admin and instructor user interfaces are intended to exclusively function on the desktop and web platforms.",
+			"This project was initiated with software design and architecture documents as well complete LoFi and HiFi prototypes. Although the project is still on its pre-development stage, we hope to get this product on deployment before we finish our bachelor’s degrees. "
+		],
+		"languages": ["UI/UX DESIGN", "SOFTWARE DESIGN AND ARCHITECTURE"]
+	},
+	{
+		"id": 2,
+		"name": "Inteletraf",
+		"icon": "/src/assets/inteletraf.svg",
+		"description": [
+			"Inteletraf is a smart traffic system that I designed during my Technoprenuership course in CIT-U. The main feature of this project is its IOT traffic light management system where the road equipments are connected to the internet where realtime traffic data are shared, analyzed, and stored. These realtime monitoring design aims to help the traffic lights manage the signals more efficiently as well as broadcast the conditions effectively in realtime. The project was exhibited in an 1 min. audio pitch with its high fidelity design as well as the 3d model of the smart traffic lights.",
+			"Inteletraf is a product initiated by yours truly, where I was the CEO of my team and lead the development of the UI/UX designs as well  as the modelling of the engineering principles of the product including its automation system, as well as its 3D structure."
+		],
+		"languages": ["UI/UX DESIGN", " 3D DESIGN MODEL"]
+	},
+	{
+		"id": 3,
+		"name": "CyberClock",
+		"icon": "/src/assets/cyberclock.svg",
+		"description": [
+			"Cyberclock is a concept clock that I designed to practice my skills in design prototyping both in Figma and Autodesk Fusion360. The cyberclock was designed as a smart wall clock with a specialized mobile application to allow connection between other smart devices for realtime interaction and shared access. The product’s vision is to provide a system where users can share alarms, reminders, and tasks which is ideal for families and offices where teams can keep track on their tasks in deliverables all in one app and one clock. "
+		],
+		"languages": ["UI/UX DESIGN", " 3D DESIGN MODEL"]
+	}
+]

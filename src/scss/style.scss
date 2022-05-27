@@ -1,0 +1,45 @@
+@use './abstracts';
+@use './components';
+@use './layouts';
+@use './pages';
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	background: #e6f4f1;
+	user-select: none;
+
+	&::-webkit-scrollbar {
+		width: 0.5rem;
+		background: rgba(0, 0, 0, 0.6);
+		&-track {
+			background-color: #68788c;
+		}
+		&-thumb {
+			background-color: #18273a;
+			&:hover {
+				background-color: #233039;
+			}
+		}
+	}
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

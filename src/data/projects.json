@@ -1,0 +1,69 @@
+[
+	{
+		"id": 1,
+		"name": "BookSyNation",
+		"icon": "/src/assets/bookcine.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#39C7AD", "name": "Frontend" }
+		],
+		"description": [
+			"The BookSyNation app is a vaccination booking system intended for the facilitation of vaccination scheduling. We developed this application using Flutter along with Firebase as its authentication and database solution. The app was designed to operate on multiple platforms such as Android, iOS, and the Web.",
+			"The BookSyNation app is a project made in compliance to our Software Design Track Course 1. The project comes with software engineering solutions as well as multiple documentations to facilitate the development of the application. Our dev team is composed of 3 members where I am the UI/UX co-designer as well as the lead frontend developer.  "
+		],
+		"languages": ["flutter", "firebase"]
+	},
+	{
+		"id": 2,
+		"name": "WhiteList Inc.",
+		"icon": "/src/assets/whitelist.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#C73939", "name": "FullStack" }
+		],
+		"description": [
+			"WhiteList is a centralized informational display hub of various rentable locations within Cebu. The website was developed using React-JS, HTML, and CSS along with Firebase as its authentication and database solution. The website was developed to eliminate the need to scout a wide area throughout a specified location for rent, especially for places that only rely on onsite signages. The website allows the rental owner to market their location to relevant potential customers without investing a large capital upfront, unlike traditional advertising methods.",
+			"This web application was made in compliance to our Modern Systems Course. I was the project manager of the team, as well as the UI/UX lead designer and  full-stack web developer. The project involved software engineering documents to guide the development of the application."
+		],
+		"languages": ["react", "sass", "firebase"]
+	},
+	{
+		"id": 3,
+		"name": "Datagrades v2.0",
+		"icon": "/src/assets/datagrades.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#389BF2", "name": "Architecture" }
+		],
+		"description": ["", ""],
+		"languages": ["typescript", "sass", "firebase"]
+	},
+	{
+		"id": 4,
+		"name": "AltruWiz",
+		"icon": "/src/assets/altruwiz.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#39C7AD", "name": "Frontend" }
+		],
+		"description": [
+			"Altruwiz is an ongoing website that we are developing to consolidate community service activities and initiatives. This app would help people and organizations track, create, and promote community events. It keeps users engaged with a unique leveling and reward system that lets them gain experience points by attending events and completing missions where users’ profiles get certificates and badges from their community service accomplishments.",
+			"This web application is made in compliance to our Software Development Track Course 2. I am the team’s lead frontend developer as well as the UI/UX co-designer."
+		],
+		"languages": ["typescript", "sass", "firebase"]
+	},
+	{
+		"id": 5,
+		"name": "Datagrades v1.0",
+		"icon": "/src/assets/datagradesv1.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#39C7AD", "name": "Frontend" }
+		],
+		"description": [
+			"This application may not be part of my recent projects, but this takes a special place in my heart. DataGrades application is a student grade management tool that I personally made as a proposed solution for computation and distribution of student grades to replace conventional grade management systems. This app was made with a mission to help teachers and students with grade transparency, work efficiency, and convenience.  The app was made using Java as its interface as well as SQL and PhpMyAdmin for its backend and database solution.",
+			"I developed this desktop application during 2017 when I was still on 10th grade. It was my ouput for my 4th year high school thesis where I first personally designed the application’s look and feel in relation to my school."
+		],
+		"languages": ["java", "sql", "phpmyadmin"]
+	}
+]

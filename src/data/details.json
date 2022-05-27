@@ -1,0 +1,58 @@
+[
+	{
+		"id": 1,
+		"param": "booksynation",
+		"name": "BookSyNation",
+		"icon": "/src/assets/bookcine.svg",
+		"background": "/src/assets/bookcine-bd.png",
+		"label": "/src/assets/bookcine-label.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#39C7AD", "name": "Frontend" }
+		],
+		"languages": ["flutter", "firebase"],
+		"theme": "#019673"
+	},
+	{
+		"id": 2,
+		"param": "whitelist",
+		"name": "WhiteList Inc.",
+		"icon": "/src/assets/whitelist.svg",
+		"background": "/src/assets/whitelist-bd.png",
+		"label": "/src/assets/whitelist-label.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#C73939", "name": "FullStack" }
+		],
+		"languages": ["react", "sass", "firebase"],
+		"theme": "#2B393F"
+	},
+	{
+		"id": 3,
+		"param": "datagrades",
+		"name": "Datagrades v2.0",
+		"icon": "/src/assets/datagrades.svg",
+		"background": "/src/assets/datagrades-bd.png",
+		"label": "/src/assets/datagrades-label.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#389BF2", "name": "Architecture" }
+		],
+		"languages": ["typescript", "sass", "firebase"],
+		"theme": "#323459"
+	},
+	{
+		"id": 4,
+		"param": "altruwiz",
+		"name": "AltruWiz",
+		"icon": "/src/assets/altruwiz.svg",
+		"background": "/src/assets/altruwiz-bd.png",
+		"label": "/src/assets/altruwiz-label.svg",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#39C7AD", "name": "Frontend" }
+		],
+		"languages": ["typescript", "sass", "firebase"],
+		"theme": "#6D4A9B"
+	}
+]

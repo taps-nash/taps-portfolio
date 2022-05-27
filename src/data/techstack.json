@@ -1,0 +1,19 @@
+[
+	{ "id": 1, "name": "REACTJS", "icon": "/src/assets/react-icon.svg" },
+	{ "id": 2, "name": "TYPESCRIPT", "icon": "/src/assets/typescript-icon.svg" },
+	{ "id": 3, "name": "FLUTTER", "icon": "/src/assets/flutter-icon.svg" },
+	{ "id": 4, "name": "FIREBASE", "icon": "/src/assets/firebase-icon.svg" },
+	{ "id": 5, "name": "SASS/SCSS", "icon": "/src/assets/sass-icon.svg" },
+	{ "id": 6, "name": "JAVA", "icon": "/src/assets/java-icon.svg" },
+	{ "id": 7, "name": "HTML/CSS/JS", "icon": "/src/assets/web-icon.svg" },
+	{ "id": 8, "name": "ARDUINO", "icon": "/src/assets/arduino-icon.svg" },
+	{ "id": 9, "name": "C", "icon": "/src/assets/c-icon.svg" },
+	{ "id": 10, "name": "C#", "icon": "/src/assets/csharp-icon.svg" },
+	{ "id": 11, "name": "C++", "icon": "/src/assets/cplusplus-icon.svg" },
+	{ "id": 12, "name": "NEXTJS", "icon": "/src/assets/nextjs-icon.svg" },
+	{ "id": 13, "name": "DART", "icon": "/src/assets/dart-icon.svg" },
+	{ "id": 14, "name": "LUA", "icon": "/src/assets/lua-icon.svg" },
+	{ "id": 15, "name": "PYTHON", "icon": "/src/assets/python-icon.svg" },
+	{ "id": 16, "name": "VUEJS", "icon": "/src/assets/vuejs-icon.svg" },
+	{ "id": 16, "name": "VUEJS", "icon": "/src/assets/tailwind-icon.svg" }
+]

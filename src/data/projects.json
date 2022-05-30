@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"name": "BookSyNation",
-		"icon": "/src/assets/bookcine.svg",
+		"icon": "/assets/bookcine.svg",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#39C7AD", "name": "Frontend" }
@@ -16,7 +16,7 @@
 	{
 		"id": 2,
 		"name": "WhiteList Inc.",
-		"icon": "/src/assets/whitelist.svg",
+		"icon": "/assets/whitelist.svg",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#C73939", "name": "FullStack" }
@@ -30,7 +30,7 @@
 	{
 		"id": 3,
 		"name": "Datagrades v2.0",
-		"icon": "/src/assets/datagrades.svg",
+		"icon": "/assets/datagrades.svg",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#389BF2", "name": "Architecture" }
@@ -41,7 +41,7 @@
 	{
 		"id": 4,
 		"name": "AltruWiz",
-		"icon": "/src/assets/altruwiz.svg",
+		"icon": "/assets/altruwiz.svg",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#39C7AD", "name": "Frontend" }
@@ -55,7 +55,7 @@
 	{
 		"id": 5,
 		"name": "Datagrades v1.0",
-		"icon": "/src/assets/datagradesv1.svg",
+		"icon": "/assets/datagradesv1.svg",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#39C7AD", "name": "Frontend" }

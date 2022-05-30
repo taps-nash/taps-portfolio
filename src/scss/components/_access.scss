@@ -1,0 +1,116 @@
+.access {
+	height: fit-content;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	&-container {
+		width: 100%;
+		max-width: 1300px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		scroll-snap-align: start;
+		row-gap: 2rem;
+		&-row1 {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			padding: 2rem;
+			column-gap: 5rem;
+			height: fit-content;
+			width: calc(100% - 10rem);
+			border-radius: 20px;
+			flex-wrap: wrap-reverse;
+			cursor: pointer;
+			&-col1 {
+				width: 45%;
+				height: fit-content;
+				flex-grow: 1;
+				h1 {
+					font-family: 'Quicksand';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 2.5rem;
+					line-height: 3rem;
+					color: #0f1722;
+				}
+				h2 {
+					font-family: 'Source Sans Pro';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 1.2rem;
+					line-height: 1.5rem;
+					text-align: justify;
+					color: #18273a;
+				}
+				h3 {
+					font-family: 'Quicksand';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 0.8rem;
+					line-height: 2rem;
+					color: #66928a;
+					text-align: end;
+				}
+			}
+			&-col2 {
+				width: 45%;
+				flex-grow: 1;
+			}
+		}
+		&-row2 {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			padding: 2rem;
+			column-gap: 5rem;
+			height: fit-content;
+			width: calc(100% - 10rem);
+			border-radius: 20px;
+			flex-wrap: wrap;
+			cursor: pointer;
+			&-col1 {
+				width: 45%;
+				flex-grow: 1;
+			}
+			&-col2 {
+				width: 45%;
+				height: fit-content;
+				flex-grow: 1;
+				h1 {
+					font-family: 'Quicksand';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 2.5rem;
+					line-height: 3rem;
+					color: #0f1722;
+				}
+				h2 {
+					font-family: 'Source Sans Pro';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 1.2rem;
+					line-height: 1.5rem;
+					text-align: justify;
+					color: #18273a;
+				}
+				h3 {
+					font-family: 'Quicksand';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 0.8rem;
+					line-height: 2rem;
+					color: #66928a;
+					text-align: end;
+				}
+			}
+		}
+	}
+}

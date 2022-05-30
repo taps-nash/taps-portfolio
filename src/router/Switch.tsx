@@ -1,27 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { AnimatePresence } from 'framer-motion';
 
 import ScrollTop from '../functions/scrollTop';
 import Home from '../web/Home';
+import Designs from './../web/pages/Designs';
+import Projects from './../web/pages/Projects';
 
 function Switch() {
-	const [screenRatio, setScreenRatio] = useState(0);
-
-	const handleResize = () => {
-		setScreenRatio(window.innerHeight / window.innerWidth);
-	};
-
-	useEffect(() => {
-		window.addEventListener('resize', handleResize);
-		return () => window.removeEventListener('resize', handleResize);
-	});
-
 	return (
 		<BrowserRouter>
 			<ScrollTop>
 				<Routes>
 					<Route path='/' element={<Home />} />
+					<Route path='/projects' element={<Projects />} />
+					<Route path='/designs' element={<Designs />} />
 				</Routes>
 			</ScrollTop>
 		</BrowserRouter>

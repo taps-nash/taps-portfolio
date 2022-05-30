@@ -5,7 +5,14 @@ const ScrollTop = (props: any) => {
 	const location = useLocation();
 	useEffect(() => {
 		window.scrollTo(0, 0);
-		document.querySelector('.home')?.scrollIntoView();
+		setTimeout(() => {
+			const div = document.querySelector('#locator');
+			div?.scrollIntoView({
+				behavior: 'smooth',
+				block: 'start',
+				inline: 'nearest',
+			});
+		}, 200);
 	}, [location]);
 	return <>{props.children}</>;
 };

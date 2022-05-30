@@ -1,0 +1,112 @@
+.techstack {
+	height: fit-content;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	&-main {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		background: #111a26;
+		box-shadow: 0px -2px 20px rgba(0, 0, 0, 0.25);
+		height: fit-content;
+		padding: 3rem 0;
+		width: 100%;
+		&-header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding-bottom: 2rem;
+			width: 100%;
+			h1 {
+				font-family: 'Oxygen';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 1rem;
+				line-height: 1.2rem;
+				letter-spacing: 1px;
+				color: #f8f8f8;
+				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			}
+		}
+		&-row {
+			display: flex;
+			flex-flow: row wrap;
+			flex-basis: auto;
+			padding-top: 1rem;
+			justify-content: space-evenly;
+			column-gap: 2rem;
+			row-gap: clamp(1rem, 3vw, 2rem);
+			width: 60%;
+			&-tech {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				column-gap: 1.2rem;
+				img {
+					height: clamp(2.5rem, 4vw, 4rem);
+				}
+				h1 {
+					font-family: 'Quicksand';
+					font-style: normal;
+					font-weight: 600;
+					font-size: clamp(1.5rem, 4vw, 1.8rem);
+					line-height: 2rem;
+					color: #f8f8f8;
+					text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+				}
+			}
+		}
+		&-separator {
+			padding-top: 2rem;
+			border-bottom: 0.15px solid #f8f8f8;
+			width: 80%;
+		}
+	}
+	&-other {
+		background: #acbad3;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+		row-gap: 1.5rem;
+		height: fit-content;
+		padding: 2.5rem 0;
+		width: 100%;
+		&-header {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			h1 {
+				font-family: 'Oxygen';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 1rem;
+				line-height: 1.2rem;
+				letter-spacing: 1px;
+				color: #233039;
+				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+			}
+		}
+		&-content {
+			width: 75%;
+			display: flex;
+			column-gap: 2rem;
+			row-gap: 2rem;
+			flex-flow: row wrap;
+			justify-content: center;
+			&-tech {
+				display: flex;
+				flex-direction: row;
+				img {
+					height: clamp(2.5rem, 4.5vw, 4rem);
+				}
+			}
+		}
+	}
+}

@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
+import { debounce } from 'lodash';
 import { useEffect, useState } from 'react';
 import { parallaxMouse } from '../../functions/parallax';
 
 function DynamicBg() {
 	const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-	const handleResize = () => {
+	const handleResize = debounce(() => {
 		setScreenWidth(window.innerWidth);
-	};
+	}, 100);
 
 	useEffect(() => {
 		window.addEventListener('resize', handleResize);
@@ -47,7 +48,7 @@ function DynamicBg() {
 					variants={svgVariants}
 					initial='hidden'
 					animate='visible'>
-					<g clip-path='url(#clip0_72_8)'>
+					<g clipPath='url(#clip0_72_8)'>
 						<path
 							d='M0.25 88V26.5H1.25L17.875 53.25V88H0.25ZM0.25 12V0.5H14.625L60 71H66L63 88H55.875H47.5L0.25 12ZM38.25 25.75V0.5H55.875V52.5H54.875L38.25 25.75Z'
 							fill='#18273A'

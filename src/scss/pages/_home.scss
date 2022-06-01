@@ -4,10 +4,11 @@
 	position: relative;
 	&-nav {
 		height: 4rem;
-		position: absolute;
+		position: fixed;
 		width: 100%;
 		top: 0;
 		left: 0;
+		z-index: 1;
 	}
 	&-header {
 		position: absolute;

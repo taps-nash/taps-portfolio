@@ -3,9 +3,9 @@
 .background {
 	position: absolute;
 	overflow: hidden;
-	top: 4rem;
+	top: 0;
 	left: 0;
-	height: calc(100% - 3.5rem);
+	height: 100%;
 	width: 100%;
 	z-index: -10;
 	&-layer0 {
@@ -69,6 +69,7 @@
 			max-width: 500px;
 			img {
 				width: 100%;
+				height: auto;
 			}
 		}
 	}
@@ -130,7 +131,7 @@
 				rgba(196, 196, 196, 0) 100%
 			);
 			&-image {
-				bottom: -30vh;
+				top: 65vh;
 				left: 50%;
 				background: url('/src/assets/circles.svg');
 				background-repeat: no-repeat;
@@ -141,6 +142,7 @@
 				height: 70%;
 				img {
 					height: 40vh;
+					width: auto;
 				}
 			}
 		}

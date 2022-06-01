@@ -10,12 +10,11 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	scroll-behavior: smooth;
 	overflow-x: hidden;
 	overflow-y: scroll;
 	background: #e6f4f1;
 	user-select: none;
-
+	scroll-behavior: smooth;
 	&::-webkit-scrollbar {
 		width: 0.5rem;
 		background: rgba(0, 0, 0, 0.6);

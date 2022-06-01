@@ -36,6 +36,40 @@
 	},
 	{
 		"id": 3,
+		"name": "AltruWiz",
+		"pictures": [
+			"/assets/altruwiz/altruwiz0.svg",
+			"/assets/altruwiz/altruwiz1.svg",
+			"/assets/altruwiz/altruwiz2.svg",
+			"/assets/altruwiz/altruwiz3.svg",
+			"/assets/altruwiz/altruwiz4.svg",
+			"/assets/altruwiz/altruwiz5.svg",
+			"/assets/altruwiz/altruwiz6.svg",
+			"/assets/altruwiz/altruwiz7.svg",
+			"/assets/altruwiz/altruwiz8.svg",
+			"/assets/altruwiz/altruwiz9.svg",
+			"/assets/altruwiz/altruwiz10.svg",
+			"/assets/altruwiz/altruwiz11.svg",
+			"/assets/altruwiz/altruwiz12.svg",
+			"/assets/altruwiz/altruwiz13.svg"
+		]
+	},
+	{
+		"id": 4,
+		"name": "Datagrades v1.0",
+		"pictures": [
+			"/assets/datagrades/datagrades0.svg",
+			"/assets/datagrades/datagrades1.svg",
+			"/assets/datagrades/datagrades2.svg",
+			"/assets/datagrades/datagrades3.svg",
+			"/assets/datagrades/datagrades4.svg",
+			"/assets/datagrades/datagrades5.svg",
+			"/assets/datagrades/datagrades6.svg",
+			"/assets/datagrades/datagrades7.svg"
+		]
+	},
+	{
+		"id": 5,
 		"name": "Datagrades v2.0",
 		"pictures": [
 			"/assets/datagrades2/datagrades0.svg",
@@ -56,23 +90,50 @@
 		]
 	},
 	{
-		"id": 4,
-		"name": "AltruWiz",
+		"id": 6,
+		"name": "InTeleTraf",
 		"pictures": [
-			"/assets/altruwiz/altruwiz0.svg",
-			"/assets/altruwiz/altruwiz1.svg",
-			"/assets/altruwiz/altruwiz2.svg",
-			"/assets/altruwiz/altruwiz3.svg",
-			"/assets/altruwiz/altruwiz4.svg",
-			"/assets/altruwiz/altruwiz5.svg",
-			"/assets/altruwiz/altruwiz6.svg",
-			"/assets/altruwiz/altruwiz7.svg",
-			"/assets/altruwiz/altruwiz8.svg",
-			"/assets/altruwiz/altruwiz9.svg",
-			"/assets/altruwiz/altruwiz10.svg",
-			"/assets/altruwiz/altruwiz11.svg",
-			"/assets/altruwiz/altruwiz12.svg",
-			"/assets/altruwiz/altruwiz13.svg"
+			"/assets/inteletraf/inteletraf0.svg",
+			"/assets/inteletraf/inteletraf1.svg",
+			"/assets/inteletraf/inteletraf2.svg",
+			"/assets/inteletraf/inteletraf3.svg",
+			"/assets/inteletraf/inteletraf4.svg",
+			"/assets/inteletraf/inteletraf5.svg",
+			"/assets/inteletraf/inteletraf6.svg",
+			"/assets/inteletraf/inteletraf7.svg",
+			"/assets/inteletraf/inteletraf8.svg",
+			"/assets/inteletraf/inteletraf9.svg",
+			"/assets/inteletraf/inteletraf10.svg",
+			"/assets/inteletraf/inteletraf11.svg",
+			"/assets/inteletraf/inteletraf12.svg",
+			"/assets/inteletraf/inteletraf13.svg",
+			"/assets/inteletraf/inteletraf14.svg",
+			"/assets/inteletraf/inteletraf15.svg",
+			"/assets/inteletraf/inteletraf16.svg",
+			"/assets/inteletraf/inteletraf17.svg",
+			"/assets/inteletraf/inteletraf18.svg"
+		]
+	},
+	{
+		"id": 7,
+		"name": "CyberClock",
+		"pictures": [
+			"/assets/cyberclock/cyberclock0.svg",
+			"/assets/cyberclock/cyberclock1.svg",
+			"/assets/cyberclock/cyberclock2.svg",
+			"/assets/cyberclock/cyberclock3.svg",
+			"/assets/cyberclock/cyberclock4.svg",
+			"/assets/cyberclock/cyberclock5.svg",
+			"/assets/cyberclock/cyberclock6.svg",
+			"/assets/cyberclock/cyberclock7.svg",
+			"/assets/cyberclock/cyberclock8.svg",
+			"/assets/cyberclock/cyberclock9.svg",
+			"/assets/cyberclock/cyberclock10.svg",
+			"/assets/cyberclock/cyberclock11.svg",
+			"/assets/cyberclock/cyberclock12.svg",
+			"/assets/cyberclock/cyberclock13.svg",
+			"/assets/cyberclock/cyberclock14.svg",
+			"/assets/cyberclock/cyberclock15.svg"
 		]
 	}
 ]

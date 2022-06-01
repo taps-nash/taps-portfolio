@@ -15,5 +15,5 @@
 	{ "id": 14, "name": "LUA", "icon": "/assets/lua-icon.svg" },
 	{ "id": 15, "name": "PYTHON", "icon": "/assets/python-icon.svg" },
 	{ "id": 16, "name": "VUEJS", "icon": "/assets/vuejs-icon.svg" },
-	{ "id": 16, "name": "VUEJS", "icon": "/assets/tailwind-icon.svg" }
+	{ "id": 17, "name": "VUEJS", "icon": "/assets/tailwind-icon.svg" }
 ]

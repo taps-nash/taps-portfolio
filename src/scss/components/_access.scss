@@ -1,6 +1,7 @@
 .access {
 	height: fit-content;
-	min-height: 100vh;
+	// min-height: calc(100vh - 3rem);
+	padding-top: 5rem;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -15,7 +16,7 @@
 		align-items: center;
 		justify-content: center;
 		scroll-snap-align: start;
-		row-gap: 2rem;
+		row-gap: 1rem;
 		&-row1 {
 			display: flex;
 			flex-direction: row;
@@ -110,6 +111,18 @@
 					color: #66928a;
 					text-align: end;
 				}
+			}
+		}
+	}
+}
+@media (hover: none) {
+	.access {
+		&-container {
+			&-row1 {
+				box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+			}
+			&-row2 {
+				box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
 			}
 		}
 	}

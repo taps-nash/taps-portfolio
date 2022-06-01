@@ -1,7 +1,7 @@
 import { motion, useAnimation } from 'framer-motion';
 import React, { useState } from 'react';
-import ProjectHover from '../../scss/graphics/ProjectHover';
-import DesignHover from './../../scss/graphics/DesignHover';
+import ProjectHover from '../../graphics/ProjectHover';
+import DesignHover from '../../graphics/DesignHover';
 import { useNavigate } from 'react-router-dom';
 
 function Access() {
@@ -34,7 +34,7 @@ function Access() {
 						y: 10,
 					}}
 					onTap={() => navigate('/projects')}
-					initial={{ opacity: 0, x: '-20%' }}
+					initial={{ opacity: 0, x: '-50%' }}
 					whileInView={{ opacity: 1, x: 0 }}
 					transition={{
 						y: { duration: 0.3, type: 'spring', stiffness: 110 },
@@ -46,8 +46,8 @@ function Access() {
 						<h1>My Projects</h1>
 						<h2>
 							These are my biggest projects for this year. I was responsible for
-							leading the frontend development of these projects as designing it
-							user interface.
+							leading the frontend development as well as designing the user
+							interface of these projects.
 						</h2>
 						<motion.h3 animate={showNotice1 ? { opacity: 1 } : { opacity: 0 }}>
 							Show Details {'>>>'}
@@ -78,7 +78,7 @@ function Access() {
 						y: 10,
 					}}
 					onTap={() => navigate('/designs')}
-					initial={{ opacity: 0, x: '20%' }}
+					initial={{ opacity: 0, x: '50%' }}
 					whileInView={{ opacity: 1, x: 0 }}
 					transition={{
 						y: { duration: 0.3, type: 'spring', stiffness: 110 },
@@ -100,9 +100,9 @@ function Access() {
 					<div className='access-container-row2-col2'>
 						<h1>My Designs</h1>
 						<h2>
-							Aside from being commited to frontend development, I also have
-							various UI/UX designs which involved web, mobile, and adaptive
-							layouts.
+							Aside from being commited to frontend development, I also
+							engineered various projects involving web and mobile applications,
+							responsive layouts, and even 3D design models.
 						</h2>
 						<motion.h3 animate={showNotice2 ? { opacity: 1 } : { opacity: 0 }}>
 							Show Details {'>>>'}

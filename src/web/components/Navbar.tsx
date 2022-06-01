@@ -1,14 +1,16 @@
-import { motion } from 'framer-motion';
+import { motion, useViewportScroll } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useNavigate } from 'react-router-dom';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Navbar() {
 	const navigate = useNavigate();
+
 	const { ref, inView } = useInView({
 		threshold: 0.45,
 		triggerOnce: false,
 	});
+
 	const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 	const handleResize = () => {
 		setScreenWidth(window.innerWidth);
@@ -22,6 +24,7 @@ function Navbar() {
 			window.addEventListener('load', handleResize);
 		};
 	});
+
 	return (
 		<motion.div
 			ref={ref}

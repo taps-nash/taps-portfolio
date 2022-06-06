@@ -3,12 +3,19 @@
 		"id": 1,
 		"param": "booksynation",
 		"name": "BookSyNation",
+		"date": "August 2021",
 		"icon": "/assets/bookcine.svg",
 		"background": "/assets/bookcine-bd.png",
 		"label": "/assets/bookcine-label.svg",
+		"description": "BookSyNation is a cross platform application developed using Flutter and Firebase. This app is a vaccination booking system intended to facilitate autonomous and efficient  vaccinations. BookSyNation app was developed as part of our Software Design Track Course 1. The project comes with software engineering solutions and documentations to facilitate the development of the application. Our dev-ops team is composed of 3 members, and among our team, I was the UI/UX co-designer as well as the lead frontend developer.",
+		"challenges": "Creating an app that works on multiple platforms is not easy, especially since we only had about two months to make this app fully functional. Not only did we have to finish the application within that time frame, but we also had to create various software documentations and project management plans.",
+		"solutions": "We were successful in achieving this by organizing our efforts around specific goals and making use of cutting-edge development tools to improve our ability to communicate and write code in collaboration. One of the most important contributors to our timely completion of the project was the fact that we adhered strictly to our project management plan.",
+		"role": "I was the primary UI/UX designer for both the web and desktop versions of this application and served as the lead front-end developer during our application's development stage.",
+		"skills": "During the course of developing this application, I was able to improve my skills in cross-platform implementations and learn new approaches to frontend development. My interest in learning more contemporary programming languages has been stoked thanks to this project, which is what first got me interested in Flutter.",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
-			{ "color": "#39C7AD", "name": "Frontend" }
+			{ "color": "#39C7AD", "name": "Frontend" },
+			{ "color": "#389BF2", "name": "Architecture" }
 		],
 		"languages": ["flutter", "firebase"],
 		"theme": "#019673"
@@ -17,42 +24,109 @@
 		"id": 2,
 		"param": "whitelist",
 		"name": "WhiteList Inc.",
+		"date": "June 2021",
 		"icon": "/assets/whitelist.svg",
 		"background": "/assets/whitelist-bd.png",
 		"label": "/assets/whitelist-label.svg",
+		"description": "WhiteList is a centralized informational display hub of various rentable locations within Cebu. The website was developed using React-JS, HTML, and CSS along with Firebase as its authentication and database solution.",
+		"challenges": "This website was the first project that my current development team worked on together as a group. My teammates were relatively unfamiliar with the languages that we used, which resulted to a steeper learning curve for our team.",
+		"solutions": "In order to close the technical gaps that existed within our team, we ran onboarding classes in addition to mentoring sessions. During the development process, we also established a robust communication channel so that everyone involved could encourage one another to openly voice their concerns.",
+		"role": "WhiteList is one of the projects that I spearheaded. During the whole course of this website, I served as the lead developer and project manager of our team. I took charge of the application's design as well as led the team with the project development.",
+		"skills": "As the senior and lead developer of our team, I was responsible for conducting the tutorial and mentoring sessions we had. My knowledge about full-stack development expanded as well as my leadership and project management skills thanks to the experience I gained while working on this project.",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
-			{ "color": "#C73939", "name": "FullStack" }
+			{ "color": "#C73939", "name": "FullStack" },
+			{ "color": "#389BF2", "name": "Architecture" }
 		],
 		"languages": ["react", "sass", "firebase"],
 		"theme": "#2B393F"
 	},
 	{
 		"id": 3,
-		"param": "datagrades",
-		"name": "Datagrades v2.0",
-		"icon": "/assets/datagrades.svg",
-		"background": "/assets/datagrades-bd.png",
-		"label": "/assets/datagrades-label.svg",
-		"fields": [
-			{ "color": "#5E39C7", "name": "UI/UX" },
-			{ "color": "#389BF2", "name": "Architecture" }
-		],
-		"languages": ["typescript", "sass", "firebase"],
-		"theme": "#323459"
-	},
-	{
-		"id": 4,
 		"param": "altruwiz",
 		"name": "AltruWiz",
+		"date": "April 2022",
 		"icon": "/assets/altruwiz.svg",
 		"background": "/assets/altruwiz-bd.png",
 		"label": "/assets/altruwiz-label.svg",
+		"description": "Altruwiz is an ongoing website that our team is working on using React-Typescript, SCSS, and Firebase. This website is developed to complement community service activities and initiatives with entertaining gaming mechanics. This app assists individuals and organizations in tracking, creating, and promoting community events.",
+		"challenges": "During our development stage, we had several concurrent projects and deliverables that required our time and attention. This circumstance challenged our priorities and commitment to the project.",
+		"solutions": "Our team was able to adapt our work schedule to better suit everyone's needs. This was possible by establishing a better sense of unity and collaboration. Understanding one another and working as a team was our greatest tool in overcoming the situation.",
+		"role": "AlruWiz is one of my most recent projects for which I am the lead frontend developer. I also assisted with the application's design stage as the co-UI/UX designer.",
+		"skills": "This project allowed me to explore and discover new approaches to my work pattern, allowing me to effectively manage my time, efforts, and focus.",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
-			{ "color": "#39C7AD", "name": "Frontend" }
+			{ "color": "#39C7AD", "name": "Frontend" },
+			{ "color": "#389BF2", "name": "Architecture" }
 		],
 		"languages": ["typescript", "sass", "firebase"],
+		"theme": "#6D4A9B"
+	},
+	{
+		"id": 4,
+		"param": "datagrades1",
+		"name": "Datagrades v1.0",
+		"date": "June 2017",
+		"icon": "/assets/datagradesv1.svg",
+		"background": "/assets/datagradesv1-bd.png",
+		"label": "/assets/datagradesv1-label.svg",
+		"description": "",
+		"challenges": "",
+		"solutions": "",
+		"role": "",
+		"skills": "",
+		"fields": [
+			{ "color": "#5E39C7", "name": "UI/UX" },
+			{ "color": "#C73939", "name": "FullStack" }
+		],
+		"languages": ["java", "sql", "phpmyadmin"],
+		"theme": "#AB3535"
+	},
+	{
+		"id": 5,
+		"param": "datagrades",
+		"name": "Datagrades v2.0",
+		"date": "November 2021",
+		"icon": "/assets/datagrades.svg",
+		"background": "/assets/datagrades-bd.png",
+		"label": "/assets/datagrades-label.svg",
+		"description": "",
+		"challenges": "",
+		"solutions": "",
+		"role": "",
+		"skills": "",
+		"fields": ["UI/UX DESIGN", "SOFTWARE ENGINEERING"],
+		"theme": "#323459"
+	},
+	{
+		"id": 6,
+		"param": "inteletraf",
+		"name": "InTeleTraf",
+		"date": "November 2021",
+		"icon": "/assets/inteletraf.svg",
+		"background": "/assets/inteletraf-bd.png",
+		"label": "/assets/inteletraf-label.svg",
+		"description": "",
+		"challenges": "",
+		"solutions": "",
+		"role": "",
+		"skills": "",
+		"fields": ["UI/UX DESIGN", "3D DESIGN MODEL"],
+		"theme": "#6D4A9B"
+	},
+	{
+		"id": 7,
+		"param": "cyberclock",
+		"name": "Cyberclock",
+		"date": "May 2022",
+		"icon": "/assets/cyberclock.svg",
+		"background": "/assets/cyberclock-bd.png",
+		"label": "/assets/cyberclock-label.svg",
+		"description": "",
+		"challenges": "",
+		"solutions": "",
+		"skills": "",
+		"fields": ["UI/UX DESIGN", "3D DESIGN MODEL"],
 		"theme": "#6D4A9B"
 	}
 ]

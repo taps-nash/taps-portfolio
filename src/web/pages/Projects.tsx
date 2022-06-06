@@ -48,9 +48,7 @@ function Projects() {
 							boxShadow: '4px 4px 20px rgba(0, 0, 0, 0.25)',
 							y: '-0.5rem',
 						}}
-						onTap={() =>
-							navigate(`${projects.at(0)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${projects.at(0)?.param}`)}
 						transition={{
 							y: { duration: 0.3, type: 'spring', stiffness: 110 },
 							boxShadow: { duration: 0.05, type: 'spring' },
@@ -67,7 +65,7 @@ function Projects() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{projects.at(0)?.description?.at(0)}</p>
+								<p>{projects.at(0)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<div className='showcase-content-container-proj-details-footer-roles'>
@@ -114,9 +112,7 @@ function Projects() {
 						}}
 						onHoverStart={() => setHovered(2)}
 						onHoverEnd={() => setHovered(0)}
-						onTap={() =>
-							navigate(`${projects.at(1)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${projects.at(1)?.param}`)}
 						transition={{
 							y: { duration: 0.3, type: 'spring', stiffness: 110 },
 							boxShadow: { duration: 0.05, type: 'spring' },
@@ -135,7 +131,7 @@ function Projects() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{projects.at(1)?.description?.at(0)}</p>
+								<p>{projects.at(1)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<div className='showcase-content-container-proj-details-footer-roles'>
@@ -180,9 +176,7 @@ function Projects() {
 						}}
 						onHoverStart={() => setHovered(3)}
 						onHoverEnd={() => setHovered(0)}
-						onTap={() =>
-							navigate(`${projects.at(3)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${projects.at(2)?.param}`)}
 						transition={{
 							y: { duration: 0.3, type: 'spring', stiffness: 110 },
 							boxShadow: { duration: 0.05, type: 'spring' },
@@ -201,7 +195,7 @@ function Projects() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{projects.at(2)?.description?.at(0)}</p>
+								<p>{projects.at(2)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<div className='showcase-content-container-proj-details-footer-roles'>
@@ -248,9 +242,7 @@ function Projects() {
 						}}
 						onHoverStart={() => setHovered(4)}
 						onHoverEnd={() => setHovered(0)}
-						onTap={() =>
-							navigate(`${projects.at(3)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${projects.at(3)?.param}`)}
 						transition={{
 							y: { duration: 0.3, type: 'spring', stiffness: 110 },
 							boxShadow: { duration: 0.05, type: 'spring' },
@@ -269,7 +261,7 @@ function Projects() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{projects.at(3)?.description?.at(0)}</p>
+								<p>{projects.at(3)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<div className='showcase-content-container-proj-details-footer-roles'>

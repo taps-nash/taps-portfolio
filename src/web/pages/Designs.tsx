@@ -51,9 +51,7 @@ function Designs() {
 							boxShadow: '4px 4px 20px rgba(0, 0, 0, 0.25)',
 							y: '-0.5rem',
 						}}
-						onTap={() =>
-							navigate(`${designs.at(0)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${designs.at(0)?.param}`)}
 						transition={{
 							y: { duration: 0.3, type: 'spring', stiffness: 110 },
 							boxShadow: { duration: 0.05, type: 'spring' },
@@ -70,7 +68,7 @@ function Designs() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{designs.at(0)?.description?.at(0)}</p>
+								<p>{designs.at(0)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<motion.h1
@@ -99,9 +97,7 @@ function Designs() {
 							boxShadow: '4px 4px 20px rgba(0, 0, 0, 0.25)',
 							y: '-0.5rem',
 						}}
-						onTap={() =>
-							navigate(`${designs.at(1)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${designs.at(1)?.param}`)}
 						onHoverStart={() => setShowMore2(true)}
 						onHoverEnd={() => setShowMore2(false)}
 						transition={{
@@ -120,7 +116,7 @@ function Designs() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{designs.at(1)?.description?.at(0)}</p>
+								<p>{designs.at(1)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<motion.h1
@@ -147,9 +143,7 @@ function Designs() {
 							boxShadow: '4px 4px 20px rgba(0, 0, 0, 0.25)',
 							y: '-0.5rem',
 						}}
-						onTap={() =>
-							navigate(`${designs.at(2)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${designs.at(2)?.param}`)}
 						onHoverStart={() => setShowMore3(true)}
 						onHoverEnd={() => setShowMore3(false)}
 						transition={{
@@ -168,7 +162,7 @@ function Designs() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{designs.at(2)?.description?.at(0)}</p>
+								<p>{designs.at(2)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<motion.h1
@@ -197,9 +191,7 @@ function Designs() {
 							boxShadow: '4px 4px 20px rgba(0, 0, 0, 0.25)',
 							y: '-0.5rem',
 						}}
-						onTap={() =>
-							navigate(`${designs.at(3)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${designs.at(3)?.param}`)}
 						onHoverStart={() => setShowMore2(true)}
 						onHoverEnd={() => setShowMore2(false)}
 						transition={{
@@ -218,7 +210,7 @@ function Designs() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{designs.at(3)?.description?.at(0)}</p>
+								<p>{designs.at(3)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<motion.h1
@@ -245,9 +237,7 @@ function Designs() {
 							boxShadow: '4px 4px 20px rgba(0, 0, 0, 0.25)',
 							y: '-0.5rem',
 						}}
-						onTap={() =>
-							navigate(`${designs.at(4)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${designs.at(4)?.param}`)}
 						onHoverStart={() => setShowMore3(true)}
 						onHoverEnd={() => setShowMore3(false)}
 						transition={{
@@ -266,7 +256,7 @@ function Designs() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{designs.at(4)?.description?.at(0)}</p>
+								<p>{designs.at(4)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<motion.h1
@@ -295,9 +285,7 @@ function Designs() {
 							boxShadow: '4px 4px 20px rgba(0, 0, 0, 0.25)',
 							y: '-0.5rem',
 						}}
-						onTap={() =>
-							navigate(`${designs.at(5)?.name.toLowerCase().split(' ').at(0)}`)
-						}
+						onTap={() => navigate(`${designs.at(5)?.param}`)}
 						onHoverStart={() => setShowMore2(true)}
 						onHoverEnd={() => setShowMore2(false)}
 						transition={{
@@ -316,7 +304,7 @@ function Designs() {
 								</h2>
 							</div>
 							<div className='showcase-content-container-proj-details-body'>
-								<p>{designs.at(5)?.description?.at(0)}</p>
+								<p>{designs.at(5)?.description}</p>
 							</div>
 							<div className='showcase-content-container-proj-details-footer'>
 								<motion.h1

@@ -26,8 +26,8 @@
 				font-family: 'Quicksand';
 				font-style: normal;
 				font-weight: 700;
-				font-size: clamp(2.5rem, 10vw, 5rem);
-				line-height: clamp(3rem, 12vw, 6rem);
+				font-size: clamp(2.5rem, 5vmin, 5rem);
+				line-height: clamp(3rem, 8vmin, 6rem);
 				text-align: center;
 				margin: 0;
 				color: #0f1722;
@@ -38,8 +38,8 @@
 				font-family: 'Montserrat';
 				font-style: normal;
 				font-weight: 400;
-				font-size: clamp(0.8rem, 4vw, 1.2rem);
-				line-height: clamp(1.5rem, 5vw, 2rem);
+				font-size: clamp(0.8rem, 3vmin, 1.2rem);
+				line-height: clamp(1.5rem, 4vmin, 2rem);
 				color: #000000;
 			}
 		}
@@ -63,7 +63,8 @@
 			&-proj {
 				max-width: 600px;
 				width: 75%;
-				padding: 2rem;
+				padding-inline: clamp(0.5rem, 2vmin, 2rem);
+				padding-block: clamp(1.5rem, 4vmin, 2rem);
 				display: flex;
 				flex-direction: row;
 				justify-content: space-evenly;
@@ -81,7 +82,7 @@
 							font-family: 'Quicksand';
 							font-style: normal;
 							font-weight: 700;
-							font-size: clamp(1.5rem, 5vw, 1.8rem);
+							font-size: clamp(1.5rem, 4vmin, 1.8rem);
 							line-height: 3rem;
 							color: #002b24;
 							margin: 0;

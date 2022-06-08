@@ -7,7 +7,7 @@
 		"icon": "/assets/bookcine.svg",
 		"background": "/assets/bookcine-bd.png",
 		"label": "/assets/bookcine-label.svg",
-		"description": "BookSyNation is a cross platform application developed using Flutter and Firebase. This app is a vaccination booking system intended to facilitate autonomous and efficient  vaccinations. BookSyNation app was developed as part of our Software Design Track Course 1. The project comes with software engineering solutions and documentations to facilitate the development of the application. Our dev-ops team is composed of 3 members, and among our team, I was the UI/UX co-designer as well as the lead frontend developer.",
+		"description": "BookSyNation is a cross platform application developed using Flutter and Firebase. This app is a vaccination booking system intended to facilitate autonomous and efficient  vaccinations. BookSyNation was developed as part of our Software Design Track Course 1. The project comes with software engineering solutions and documentations to facilitate our development of the application.",
 		"challenges": "Creating an app that works on multiple platforms is not easy, especially since we only had about two months to make this app fully functional. Not only did we have to finish the application within that time frame, but we also had to create various software documentations and project management plans.",
 		"solutions": "We were successful in achieving this by organizing our efforts around specific goals and making use of cutting-edge development tools to improve our ability to communicate and write code in collaboration. One of the most important contributors to our timely completion of the project was the fact that we adhered strictly to our project management plan.",
 		"role": "I was the primary UI/UX designer for both the web and desktop versions of this application and served as the lead front-end developer during our application's development stage.",
@@ -80,7 +80,7 @@
 			{ "color": "#C73939", "name": "FullStack" }
 		],
 		"languages": ["java", "sql", "phpmyadmin"],
-		"theme": "#AB3535"
+		"theme": "#0A1A31"
 	},
 	{
 		"id": 5,
@@ -112,7 +112,7 @@
 		"role": "",
 		"skills": "",
 		"fields": ["UI/UX DESIGN", "3D DESIGN MODEL"],
-		"theme": "#6D4A9B"
+		"theme": "#242424"
 	},
 	{
 		"id": 7,
@@ -127,6 +127,6 @@
 		"solutions": "",
 		"skills": "",
 		"fields": ["UI/UX DESIGN", "3D DESIGN MODEL"],
-		"theme": "#6D4A9B"
+		"theme": "#036673"
 	}
 ]

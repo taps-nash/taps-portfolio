@@ -1,0 +1,75 @@
+.about {
+	height: 800vh;
+	&-svg {
+		display: flex;
+		width: 100%;
+		aspect-ratio: 2;
+		position: relative;
+		&-pic0 {
+			position: absolute;
+			left: 31%;
+			height: 100%;
+		}
+		&-pic1 {
+			position: absolute;
+			height: 30%;
+			left: 12.5%;
+			top: 16%;
+		}
+		&-pic2 {
+			position: absolute;
+			height: 30%;
+			right: 12%;
+			top: 16%;
+		}
+		&-pic3 {
+			position: absolute;
+			height: 30%;
+			left: 12.5%;
+			bottom: 16%;
+		}
+		&-pic4 {
+			position: absolute;
+			height: 30%;
+			right: 12%;
+			bottom: 16%;
+		}
+		&-pic5 {
+			position: absolute;
+			height: 42%;
+			left: 0;
+			top: 32%;
+		}
+		&-pic6 {
+			position: absolute;
+			height: 42%;
+			right: 0;
+			top: 32%;
+		}
+	}
+	&-scroll {
+		margin-top: 5rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: sticky;
+		top: 3rem;
+		&-wrapper {
+			width: 90%;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			max-width: 1200px;
+			h1 {
+				font-family: 'Quicksand';
+				font-style: normal;
+				font-weight: 700;
+				font-size: clamp(0.7rem, 2vmin, 1.2rem);
+				text-align: center;
+				line-height: 3rem;
+				color: #000000;
+			}
+		}
+	}
+}

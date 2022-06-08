@@ -11,7 +11,7 @@ function Projects() {
 	return (
 		<div className='showcase'>
 			<div className='showcase-navbar'>
-				<Navbar2 />
+				<Navbar2 use={'normal'} />
 			</div>
 			<div className='showcase-header'>
 				<motion.div
@@ -26,9 +26,13 @@ function Projects() {
 						these projects.
 					</p>
 				</motion.div>
-				<div className='showcase-header-svg'>
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 0.25, duration: 0.3, type: 'tween' }}
+					className='showcase-header-svg'>
 					<SvgProject className='showcase-header-svg-component' />
-				</div>
+				</motion.div>
 			</div>
 			<div className='showcase-content'>
 				<motion.div

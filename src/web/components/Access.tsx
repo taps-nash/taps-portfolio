@@ -14,7 +14,7 @@ function Access() {
 	const svgAnimationControls2 = useAnimation();
 
 	return (
-		<div className='access'>
+		<div className='access' id='access'>
 			<div className='access-container'>
 				<motion.div
 					onHoverStart={() => {

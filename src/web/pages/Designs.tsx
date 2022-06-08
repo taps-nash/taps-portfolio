@@ -14,7 +14,7 @@ function Designs() {
 	return (
 		<div className='showcase'>
 			<div className='showcase-navbar'>
-				<Navbar2 />
+				<Navbar2 use={'normal'} />
 			</div>
 			<div className='showcase-header'>
 				<motion.div
@@ -29,9 +29,13 @@ function Designs() {
 						project management plan procedures.
 					</p>
 				</motion.div>
-				<div className='showcase-header-svg'>
+				<motion.div
+					initial={{ opacity: 0 }}
+					animate={{ opacity: 1 }}
+					transition={{ delay: 0.25, duration: 0.3, type: 'tween' }}
+					className='showcase-header-svg'>
 					<SvgDesign className='showcase-header-svg-component' />
-				</div>
+				</motion.div>
 			</div>
 			<div className='showcase-content'>
 				<motion.div
@@ -286,8 +290,8 @@ function Designs() {
 							y: '-0.5rem',
 						}}
 						onTap={() => navigate(`${designs.at(5)?.param}`)}
-						onHoverStart={() => setShowMore2(true)}
-						onHoverEnd={() => setShowMore2(false)}
+						onHoverStart={() => setShowMore4(true)}
+						onHoverEnd={() => setShowMore4(false)}
 						transition={{
 							y: { duration: 0.3, type: 'spring', stiffness: 110 },
 							boxShadow: { duration: 0.05, type: 'spring' },
@@ -309,7 +313,7 @@ function Designs() {
 							<div className='showcase-content-container-proj-details-footer'>
 								<motion.h1
 									initial={{ opacity: 0, y: '30%' }}
-									animate={showMore2 ? { opacity: 1, y: 0 } : {}}>
+									animate={showMore4 ? { opacity: 1, y: 0 } : {}}>
 									Know more {'>>>'}
 								</motion.h1>
 							</div>

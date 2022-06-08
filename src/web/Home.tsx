@@ -7,6 +7,7 @@ import Foreground from './components/Foreground';
 import Navbar from './components/Navbar';
 import Techstack from './components/Techstack';
 import { debounce } from 'lodash';
+import About from './components/About';
 
 function Home() {
 	const [showNav, setShowNav] = useState(true);
@@ -43,6 +44,7 @@ function Home() {
 			<Parallax speed={3} className='home-body'>
 				<Techstack />
 				<Access />
+				<About />
 			</Parallax>
 		</div>
 	);

@@ -29,7 +29,7 @@
 					font-family: 'Oxygen';
 					font-style: normal;
 					font-weight: 400;
-					font-size: 1rem;
+					font-size: clamp(0.8rem, 1.5vw, 1rem);
 					margin: 0;
 					line-height: 2rem;
 					color: darken($secondary-color, 50%);
@@ -44,7 +44,7 @@
 			cursor: pointer;
 		}
 		img {
-			height: clamp(1.2rem, 5vw, 2rem);
+			height: clamp(1rem, 4vw, 1.8rem);
 			opacity: 0.8;
 		}
 	}

@@ -37,7 +37,7 @@
 					font-family: 'Quicksand';
 					font-style: normal;
 					font-weight: 700;
-					font-size: 2.5rem;
+					font-size: clamp(1.5rem, 4vmin, 2.5rem);
 					line-height: 3rem;
 					color: #0f1722;
 				}
@@ -45,8 +45,8 @@
 					font-family: 'Source Sans Pro';
 					font-style: normal;
 					font-weight: 400;
-					font-size: 1.2rem;
-					line-height: 1.5rem;
+					font-size: clamp(0.8rem, 3vmin, 1.2rem);
+					line-height: clamp(1.2rem, 3vmin, 1.5rem);
 					text-align: justify;
 					color: #18273a;
 				}
@@ -89,7 +89,7 @@
 					font-family: 'Quicksand';
 					font-style: normal;
 					font-weight: 700;
-					font-size: 2.5rem;
+					font-size: clamp(1.5rem, 4vmin, 2.5rem);
 					line-height: 3rem;
 					color: #0f1722;
 				}
@@ -97,8 +97,8 @@
 					font-family: 'Source Sans Pro';
 					font-style: normal;
 					font-weight: 400;
-					font-size: 1.2rem;
-					line-height: 1.5rem;
+					font-size: clamp(0.8rem, 3vmin, 1.2rem);
+					line-height: clamp(1.2rem, 3vmin, 1.5rem);
 					text-align: justify;
 					color: #18273a;
 				}

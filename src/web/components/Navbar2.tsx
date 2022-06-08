@@ -1,10 +1,18 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { useNavigate } from 'react-router-dom';
-import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import { TiArrowBack } from 'react-icons/ti';
 
-function Navbar2() {
+import data from '../../data/details.json';
+
+function Navbar2({ use }: any) {
+	const { id } = useParams();
+	console.log(use);
+	const index = data.findIndex((value) => {
+		return value.param === id;
+	});
+
 	const navigate = useNavigate();
 	const { ref, inView } = useInView({
 		threshold: 0.45,
@@ -29,7 +37,12 @@ function Navbar2() {
 			initial={{ opacity: 0, y: '-20%' }}
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ duration: 0.5 }}
-			className='navbar'>
+			className='navbar'
+			style={
+				use === 'normal'
+					? { backgroundColor: 'white' }
+					: { backgroundColor: data.at(index)?.theme }
+			}>
 			<div className='navbar-container'>
 				<motion.div
 					initial={{ y: 0 }}
@@ -43,10 +56,13 @@ function Navbar2() {
 						y: { duration: 0.15, type: 'spring', stiffness: 120 },
 					}}
 					onClick={() => {
-						navigate(-1);
+						use === 'normal' ? navigate('/access') : navigate(-1);
 					}}
 					className='navbar-container-back'>
-					<TiArrowBack size={'1.5rem'} color={'#3A485D'} />
+					<TiArrowBack
+						size={'1.5rem'}
+						color={use === 'normal' ? '#3A485D' : 'white'}
+					/>
 				</motion.div>
 				<motion.img
 					initial={{ y: 0 }}
@@ -60,7 +76,11 @@ function Navbar2() {
 						y: { duration: 0.15, type: 'spring', stiffness: 120 },
 					}}
 					onClick={() => navigate('/')}
-					src='/assets/nut-logo.svg'
+					src={
+						use === 'normal'
+							? '/assets/nut-logo.svg'
+							: '/assets/nut-logo-white.svg'
+					}
 					className='navbar-container-home'
 				/>
 			</div>

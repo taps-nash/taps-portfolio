@@ -1,5 +1,5 @@
 .about {
-	height: 800vh;
+	height: 320vh;
 	&-svg {
 		display: flex;
 		width: 100%;
@@ -54,22 +54,121 @@
 		align-items: center;
 		position: sticky;
 		top: 3rem;
+		z-index: 10;
 		&-wrapper {
-			width: 90%;
+			width: 80%;
 			height: 100vh;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 			max-width: 1200px;
+			position: absolute;
+			top: 0;
 			h1 {
 				font-family: 'Quicksand';
 				font-style: normal;
+				text-align: center;
 				font-weight: 700;
 				font-size: clamp(0.7rem, 2vmin, 1.2rem);
 				text-align: center;
 				line-height: 3rem;
-				color: #000000;
+				color: #18273a;
 			}
 		}
+	}
+	&-content {
+		padding-top: 200vmin;
+		margin-inline: auto;
+		width: 70%;
+		&-container1 {
+			height: 100vmin;
+			scroll-snap-align: start;
+			h1 {
+				font-family: 'Quicksand';
+				font-style: normal;
+				font-weight: 600;
+				font-size: clamp(4rem, 20vmin, 8rem);
+				line-height: clamp(5rem, 20vmin, 10rem);
+				margin: 0;
+				color: #0a1a31;
+			}
+			p {
+				font-family: 'Oxygen';
+				font-style: normal;
+				font-weight: 700;
+				font-size: clamp(1.2rem, 5vmin, 5rem);
+				line-height: clamp(2rem, 5vmin, 8rem);
+				margin: 0;
+				color: #18273a;
+			}
+		}
+		&-container2 {
+			height: 100vh;
+			width: 60%;
+			h1 {
+				font-family: 'Oxygen';
+				font-style: normal;
+				font-weight: 600;
+				font-size: clamp(1.2rem, 8vmin, 4rem);
+				line-height: clamp(4rem, 10vmin, 6rem);
+				color: #0a1a31;
+			}
+			h2 {
+				font-family: 'Oxygen';
+				font-style: normal;
+				font-weight: 700;
+				font-size: clamp(1.2rem, 4vmin, 5rem);
+				line-height: clamp(2rem, 5vmin, 8rem);
+				margin-inline: 0;
+				margin-block: 0.5rem;
+				color: #233039;
+			}
+			h3 {
+				font-family: 'Oxygen';
+				font-style: normal;
+				font-weight: 700;
+				font-size: clamp(0.8rem, 2.5vmin, 4rem);
+				line-height: clamp(1.5rem, 4vmin, 6rem);
+				margin: 0;
+				color: #233039;
+			}
+			p {
+				font-family: 'Source Sans Pro';
+				font-style: normal;
+				font-weight: 400;
+				font-size: clamp(1rem, 2.5vmin, 4rem);
+				line-height: clamp(1.5rem, 4vmin, 6rem);
+				margin-block: clamp(1rem, 3vmin, 2rem);
+				color: #233039;
+			}
+		}
+	}
+	&-content2 {
+		z-index: 9999;
+		background-color: white;
+		box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		&-container {
+			margin: auto;
+			padding-block: 5rem;
+			width: 80%;
+			h1 {
+				margin-inline: auto;
+				width: fit-content;
+				text-align: center;
+				font-family: 'Source Sans Pro';
+				font-style: normal;
+				font-weight: 600;
+				font-size: clamp(1.2rem, 4vmin, 5rem);
+				line-height: clamp(2rem, 5vmin, 8rem);
+				color: #0a1a31;
+			}
+		}
+	}
+	&-footer {
+		background-color: #18273a;
+		height: 50vh;
 	}
 }

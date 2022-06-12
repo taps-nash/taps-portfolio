@@ -34,7 +34,7 @@ function Navbar() {
 			className='navbar'>
 			<div className='navbar-container'>
 				{screenWidth < 800 ? (
-					<img src='/assets/menu-hamburger.svg' />
+					<img src='' />
 				) : (
 					<div className='navbar-container-links'>
 						<motion.div

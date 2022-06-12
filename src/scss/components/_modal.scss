@@ -1,0 +1,50 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 2;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	&-void {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.6);
+		z-index: -1;
+	}
+	&-preview {
+		position: inherit;
+		height: fit-content;
+		width: fit-content;
+		max-width: 80%;
+
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			height: 100%;
+			max-width: 100%;
+		}
+	}
+	&-prev {
+		position: absolute;
+		left: 0;
+		padding: 1rem;
+	}
+	&-next {
+		position: absolute;
+		right: 0;
+		padding: 1rem;
+	}
+}

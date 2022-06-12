@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .details {
 	display: flex;
 	flex-direction: column;
@@ -11,34 +13,32 @@
 	&-body {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		margin: 6rem;
 		max-width: 1200px;
-		width: 80%;
+		width: 80vw;
 		&-header {
 			width: 100%;
-			height: clamp(8rem, 20vw, 10rem);
+			height: clamp(5rem, 25vmin, 12rem);
 			display: flex;
 			img {
 				margin: auto;
-				max-height: 5rem;
+				height: clamp(2rem, 10vmin, 5rem);
 				max-width: 90%;
 			}
 		}
 		&-details {
-			display: flex;
-			flex-flow: row wrap-reverse;
-			justify-content: center;
-			align-items: flex-end;
-			row-gap: 3rem;
-			&-col1 {
-				width: 50%;
-				flex-grow: 2;
+			display: grid;
+			width: 80vw;
+			padding-top: clamp(0.5rem, 5vmin, 3rem);
+			grid-template-columns: 40vw 40vw;
+			grid-template-rows: 50% 30% 20%;
+			grid-template-areas: 'desc backdrop' 'desc backdrop' 'desc links';
+			&-desc {
+				grid-area: desc;
 				&-content {
 					display: flex;
 					flex-direction: column;
 					align-items: center;
-					row-gap: 1rem;
 					width: 100%;
 					&-row {
 						display: flex;
@@ -67,22 +67,133 @@
 					}
 				}
 			}
-			&-col2 {
-				width: 50%;
-				min-width: 300px;
-				margin-top: 3rem;
+			&-backdrop {
+				grid-area: backdrop;
+
+				width: 100%;
+				display: flex;
+				&-image {
+					position: sticky;
+					top: 3rem;
+					margin-inline: auto;
+					width: 80%;
+					height: fit-content;
+					img {
+						width: 100%;
+					}
+				}
+			}
+			&-links {
+				grid-area: links;
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				justify-content: center;
-				img {
-					width: 90%;
+				padding-top: 3rem;
+				row-gap: clamp(1rem, 5vmin, 1.8rem);
+				width: 100%;
+				&-comp {
+					display: flex;
+					flex-direction: row;
+					column-gap: 0.8rem;
+					align-items: center;
+					img {
+						height: clamp(1rem, 5vmin, 2rem);
+					}
+					a {
+						width: 90%;
+						font-family: 'Quicksand';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 1rem;
+						line-height: 2rem;
+						text-decoration: none;
+						text-align: justify;
+						color: #000000;
+					}
 				}
 			}
 		}
 	}
 	&-carousel {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		position: relative;
+		width: 100vw;
+		height: 13rem;
+		background-color: hsl(214, 38%, 11%, 0.05);
+		&-container {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-end;
+			overflow-x: auto;
+			scroll-snap-type: x proximity;
+			scroll-behavior: smooth;
+			&-image {
+				aspect-ratio: 1.8;
+				scroll-snap-align: both;
+				border-inline: 2px solid hsla(213, 15%, 48%, 0.6);
+				height: 100%;
+				background-size: contain !important;
+				cursor: pointer;
+			}
+			&::-webkit-scrollbar {
+				height: 0.4rem;
+				&-track {
+					background-color: hsla(213, 15%, 48%, 0.6);
+				}
+				&-thumb {
+					background-color: hsl(214, 41%, 16%, 0.8);
+					border-radius: 100;
+					&:hover {
+						background-color: #233039;
+					}
+				}
+			}
+		}
+		&-prev {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: hsl(214, 38%, 11%, 0.45);
+			position: absolute;
+			left: 0%;
+			height: 100%;
+			width: 3rem;
+			&-icon {
+				color: white !important;
+			}
+		}
+		&-next {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: hsl(214, 38%, 11%, 0.45);
+			position: absolute;
+			right: 0%;
+			height: 100%;
+			width: 3rem;
+		}
 	}
 	&-footer {
+	}
+}
+@media screen and (max-width: $normal) {
+	.details {
+		&-body {
+			&-details {
+				grid-template-columns: 80vw !important;
+				grid-template-rows: auto auto auto !important;
+				grid-template-areas: 'backdrop' 'desc' 'links' !important;
+				&-backdrop {
+					position: inherit;
+					padding-bottom: 3rem;
+				}
+			}
+		}
 	}
 }

@@ -34,12 +34,12 @@ function Access() {
 						y: 10,
 					}}
 					onTap={() => navigate('/projects')}
-					initial={{ opacity: 0, x: '-50%' }}
+					initial={{ opacity: 0, x: '-30%' }}
 					whileInView={{ opacity: 1, x: 0 }}
 					transition={{
 						y: { duration: 0.3, type: 'spring', stiffness: 110 },
 						boxShadow: { duration: 0.05, type: 'spring' },
-						x: { duration: 1, type: 'tween', ease: 'easeInOut' },
+						x: { duration: 0.5, type: 'tween', ease: 'easeInOut' },
 					}}
 					className='access-container-row1'>
 					<div className='access-container-row1-col1'>
@@ -78,17 +78,12 @@ function Access() {
 						y: 10,
 					}}
 					onTap={() => navigate('/designs')}
-					initial={{ opacity: 0, x: '50%' }}
+					initial={{ opacity: 0, x: '30%' }}
 					whileInView={{ opacity: 1, x: 0 }}
 					transition={{
 						y: { duration: 0.3, type: 'spring', stiffness: 110 },
 						boxShadow: { duration: 0.05, type: 'spring' },
-						x: {
-							delay: 0.3,
-							duration: 1,
-							type: 'tween',
-							ease: 'easeInOut',
-						},
+						x: { delay: 0.3, duration: 0.5, type: 'tween', ease: 'easeInOut' },
 					}}
 					className='access-container-row2'>
 					<div className='access-container-row2-col1'>

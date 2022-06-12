@@ -17,6 +17,31 @@
 			{ "color": "#39C7AD", "name": "Frontend" },
 			{ "color": "#389BF2", "name": "Architecture" }
 		],
+		"links": [
+			{
+				"image": "/assets/apk.svg",
+				"link": "https://drive.google.com/file/d/14NNNYLmJ4yqL7JEYm3JKSWhcqHDNhqGX/view?usp=sharing",
+				"name": "Bookcine Apk"
+			},
+			{
+				"image": "/assets/github-grey.svg",
+				"link": "https://github.com/Book-cine/booksynation",
+				"name": "Github Repository"
+			},
+			{
+				"image": "/assets/file-black.svg",
+				"link": "",
+				"name": "Software Documentations"
+			}
+		],
+		"pictures": [
+			"/assets/bookcine/bookcine0.png",
+			"/assets/bookcine/bookcine1.svg",
+			"/assets/bookcine/bookcine2.svg",
+			"/assets/bookcine/bookcine3.svg",
+			"/assets/bookcine/bookcine4.svg",
+			"/assets/bookcine/bookcine5.svg"
+		],
 		"languages": ["flutter", "firebase"],
 		"theme": "#019673"
 	},
@@ -38,6 +63,42 @@
 			{ "color": "#C73939", "name": "FullStack" },
 			{ "color": "#389BF2", "name": "Architecture" }
 		],
+		"links": [
+			{
+				"image": "/assets/github-grey.svg",
+				"link": "https://github.com/WhiteList-Int/white-list",
+				"name": "Github Repository"
+			},
+			{
+				"image": "/assets/file-black.svg",
+				"link": "https://drive.google.com/file/d/1RqGArqOhWDulmETL1pum-rhcKKXy9Xv-/view",
+				"name": "Software Documentation"
+			},
+			{
+				"image": "/assets/link.svg",
+				"link": "https://whitelist-develop.web.app/",
+				"name": "Visit Website"
+			}
+		],
+		"pictures": [
+			"/assets/whitelist/whitelist0.png",
+			"/assets/whitelist/whitelist1.svg",
+			"/assets/whitelist/whitelist2.svg",
+			"/assets/whitelist/whitelist3.svg",
+			"/assets/whitelist/whitelist4.svg",
+			"/assets/whitelist/whitelist5.svg",
+			"/assets/whitelist/whitelist6.svg",
+			"/assets/whitelist/whitelist7.svg",
+			"/assets/whitelist/whitelist8.svg",
+			"/assets/whitelist/whitelist9.svg",
+			"/assets/whitelist/whitelist10.svg",
+			"/assets/whitelist/whitelist11.svg",
+			"/assets/whitelist/whitelist12.svg",
+			"/assets/whitelist/whitelist13.svg",
+			"/assets/whitelist/whitelist14.svg",
+			"/assets/whitelist/whitelist15.svg",
+			"/assets/whitelist/whitelist16.svg"
+		],
 		"languages": ["react", "sass", "firebase"],
 		"theme": "#2B393F"
 	},
@@ -52,12 +113,40 @@
 		"description": "Altruwiz is an ongoing website that our team is working on using React-Typescript, SCSS, and Firebase. This website is developed to complement community service activities and initiatives with entertaining gaming mechanics. This app assists individuals and organizations in tracking, creating, and promoting community events.",
 		"challenges": "During our development stage, we had several concurrent projects and deliverables that required our time and attention. This circumstance challenged our priorities and commitment to the project.",
 		"solutions": "Our team was able to adapt our work schedule to better suit everyone's needs. This was possible by establishing a better sense of unity and collaboration. Understanding one another and working as a team was our greatest tool in overcoming the situation.",
-		"role": "AlruWiz is one of my most recent projects for which I am the lead frontend developer. I also assisted with the application's design stage as the co-UI/UX designer.",
+		"role": "AlruWiz is one of my most recent projects for which I serve as the senior and lead frontend developer. I also assisted the application's design stage as the co-UI/UX designer.",
 		"skills": "This project allowed me to explore and discover new approaches to my work pattern, allowing me to effectively manage my time, efforts, and focus.",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#39C7AD", "name": "Frontend" },
 			{ "color": "#389BF2", "name": "Architecture" }
+		],
+		"links": [
+			{
+				"image": "/assets/github-grey.svg",
+				"link": "https://github.com/WhiteList-Int/white-list",
+				"name": "Github Repository"
+			},
+			{
+				"image": "/assets/link.svg",
+				"link": "https://altruwiz.web.app/",
+				"name": "Visit Website"
+			}
+		],
+		"pictures": [
+			"/assets/altruwiz/altruwiz0.png",
+			"/assets/altruwiz/altruwiz1.svg",
+			"/assets/altruwiz/altruwiz2.svg",
+			"/assets/altruwiz/altruwiz3.svg",
+			"/assets/altruwiz/altruwiz4.svg",
+			"/assets/altruwiz/altruwiz5.svg",
+			"/assets/altruwiz/altruwiz6.svg",
+			"/assets/altruwiz/altruwiz7.svg",
+			"/assets/altruwiz/altruwiz8.svg",
+			"/assets/altruwiz/altruwiz9.svg",
+			"/assets/altruwiz/altruwiz10.svg",
+			"/assets/altruwiz/altruwiz11.svg",
+			"/assets/altruwiz/altruwiz12.svg",
+			"/assets/altruwiz/altruwiz13.svg"
 		],
 		"languages": ["typescript", "sass", "firebase"],
 		"theme": "#6D4A9B"
@@ -79,6 +168,28 @@
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#C73939", "name": "FullStack" }
 		],
+		"links": [
+			{
+				"image": "/assets/github-grey.svg",
+				"link": "https://github.com/WhiteList-Int/white-list",
+				"name": "Github Repository"
+			},
+			{
+				"image": "/assets/link.svg",
+				"link": "https://altruwiz.web.app/",
+				"name": "Visit Website"
+			}
+		],
+		"pictures": [
+			"/assets/datagrades/datagrades0.png",
+			"/assets/datagrades/datagrades1.svg",
+			"/assets/datagrades/datagrades2.svg",
+			"/assets/datagrades/datagrades3.svg",
+			"/assets/datagrades/datagrades4.svg",
+			"/assets/datagrades/datagrades5.svg",
+			"/assets/datagrades/datagrades6.svg",
+			"/assets/datagrades/datagrades7.svg"
+		],
 		"languages": ["java", "sql", "phpmyadmin"],
 		"theme": "#0A1A31"
 	},
@@ -95,6 +206,23 @@
 		"solutions": "",
 		"role": "",
 		"skills": "",
+		"pictures": [
+			"/assets/datagrades2/datagrades0.png",
+			"/assets/datagrades2/datagrades1.svg",
+			"/assets/datagrades2/datagrades2.svg",
+			"/assets/datagrades2/datagrades3.svg",
+			"/assets/datagrades2/datagrades4.svg",
+			"/assets/datagrades2/datagrades5.svg",
+			"/assets/datagrades2/datagrades6.svg",
+			"/assets/datagrades2/datagrades7.svg",
+			"/assets/datagrades2/datagrades8.svg",
+			"/assets/datagrades2/datagrades9.svg",
+			"/assets/datagrades2/datagrades10.svg",
+			"/assets/datagrades2/datagrades11.svg",
+			"/assets/datagrades2/datagrades12.svg",
+			"/assets/datagrades2/datagrades13.svg",
+			"/assets/datagrades2/datagrades14.svg"
+		],
 		"fields": ["UI/UX DESIGN", "SOFTWARE ENGINEERING"],
 		"theme": "#323459"
 	},
@@ -111,6 +239,39 @@
 		"solutions": "",
 		"role": "",
 		"skills": "",
+		"links": [
+			{
+				"image": "/assets/video.svg",
+				"link": "https://drive.google.com/file/d/1D5iY7Ujc0qd_q5EirS0w9i-B5Bof9H53/view?usp=sharing",
+				"name": "Pitch Video"
+			},
+			{
+				"image": "/assets/file-black.svg",
+				"link": "https://docs.google.com/document/d/1qdk68P_wstVkbkRGBHDu_2Amnm7bhDuqyZQoMUcrLC8/edit?usp=sharing",
+				"name": "Documentations"
+			}
+		],
+		"pictures": [
+			"/assets/inteletraf/inteletraf0.png",
+			"/assets/inteletraf/inteletraf1.svg",
+			"/assets/inteletraf/inteletraf2.svg",
+			"/assets/inteletraf/inteletraf3.svg",
+			"/assets/inteletraf/inteletraf4.svg",
+			"/assets/inteletraf/inteletraf5.svg",
+			"/assets/inteletraf/inteletraf6.svg",
+			"/assets/inteletraf/inteletraf7.svg",
+			"/assets/inteletraf/inteletraf8.svg",
+			"/assets/inteletraf/inteletraf9.svg",
+			"/assets/inteletraf/inteletraf10.svg",
+			"/assets/inteletraf/inteletraf11.svg",
+			"/assets/inteletraf/inteletraf12.svg",
+			"/assets/inteletraf/inteletraf13.svg",
+			"/assets/inteletraf/inteletraf14.svg",
+			"/assets/inteletraf/inteletraf15.svg",
+			"/assets/inteletraf/inteletraf16.svg",
+			"/assets/inteletraf/inteletraf17.svg",
+			"/assets/inteletraf/inteletraf18.svg"
+		],
 		"fields": ["UI/UX DESIGN", "3D DESIGN MODEL"],
 		"theme": "#242424"
 	},
@@ -126,6 +287,24 @@
 		"challenges": "",
 		"solutions": "",
 		"skills": "",
+		"pictures": [
+			"/assets/cyberclock/cyberclock0.png",
+			"/assets/cyberclock/cyberclock1.svg",
+			"/assets/cyberclock/cyberclock2.svg",
+			"/assets/cyberclock/cyberclock3.svg",
+			"/assets/cyberclock/cyberclock4.svg",
+			"/assets/cyberclock/cyberclock5.svg",
+			"/assets/cyberclock/cyberclock6.svg",
+			"/assets/cyberclock/cyberclock7.svg",
+			"/assets/cyberclock/cyberclock8.svg",
+			"/assets/cyberclock/cyberclock9.svg",
+			"/assets/cyberclock/cyberclock10.svg",
+			"/assets/cyberclock/cyberclock11.svg",
+			"/assets/cyberclock/cyberclock12.svg",
+			"/assets/cyberclock/cyberclock13.svg",
+			"/assets/cyberclock/cyberclock14.svg",
+			"/assets/cyberclock/cyberclock15.svg"
+		],
 		"fields": ["UI/UX DESIGN", "3D DESIGN MODEL"],
 		"theme": "#036673"
 	}

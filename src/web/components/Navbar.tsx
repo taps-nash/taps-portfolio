@@ -93,7 +93,13 @@ function Navbar() {
 							transition={{
 								y: { duration: 0.15, type: 'spring', stiffness: 120 },
 							}}
-							onClick={() => navigate('/contact')}
+							onClick={() =>
+								document.querySelector('#contact')?.scrollIntoView({
+									behavior: 'smooth',
+									block: 'start',
+									inline: 'nearest',
+								})
+							}
 							className='navbar-container-links-opt'>
 							<h1>Contact Me</h1>
 						</motion.div>

@@ -123,7 +123,7 @@
 		"links": [
 			{
 				"image": "/assets/github-grey.svg",
-				"link": "https://github.com/WhiteList-Int/white-list",
+				"link": "https://github.com/AltruWiz/altruWiz",
 				"name": "Github Repository"
 			},
 			{
@@ -159,25 +159,20 @@
 		"icon": "/assets/datagradesv1.svg",
 		"background": "/assets/datagradesv1-bd.png",
 		"label": "/assets/datagradesv1-label.svg",
-		"description": "",
-		"challenges": "",
-		"solutions": "",
-		"role": "",
-		"skills": "",
+		"description": "Datagrades is a desktop grade management tool that I designed to replace the convential class record sheets and tasky spreadsheets used for grade tabulation. The software includes automated grade calculation, reviewing, submission, and dissemination.",
+		"challenges": "As this was my first project involving advanced database concepts, it was a challenge for me to handle large projects early on. Being the sole programmer on the team was the most difficult part of creating this project.",
+		"solutions": "With the help of very supportive mentors in our institution, I was able to apply a lot of advance concepts to my craft. Doing the tasks I need to acomplish was a lot easier as I applied the concepts and workarounds they have taught me to my coding.",
+		"role": "During its development stage, I was the sole full-stack developer of our team as well as the co-researcher of our thesis paper.",
+		"skills": "All thanks to this project, I was able to learn how to work under pressure with grace. I also learned a lot from my mentors especially with the technical parts of databasse handling and software programming.",
 		"fields": [
 			{ "color": "#5E39C7", "name": "UI/UX" },
 			{ "color": "#C73939", "name": "FullStack" }
 		],
 		"links": [
 			{
-				"image": "/assets/github-grey.svg",
-				"link": "https://github.com/WhiteList-Int/white-list",
-				"name": "Github Repository"
-			},
-			{
-				"image": "/assets/link.svg",
-				"link": "https://altruwiz.web.app/",
-				"name": "Visit Website"
+				"image": "/assets/file-black.svg",
+				"link": "https://cooing-bookcase-727.notion.site/Datagrades-v1-b9e78437cbb7465380d3184eeb23c501",
+				"name": "Thesis Paper and Appendix (Code)"
 			}
 		],
 		"pictures": [
@@ -201,11 +196,18 @@
 		"icon": "/assets/datagrades.svg",
 		"background": "/assets/datagrades-bd.png",
 		"label": "/assets/datagrades-label.svg",
-		"description": "",
-		"challenges": "",
-		"solutions": "",
-		"role": "",
-		"skills": "",
+		"description": "Datagrades v2.0 is the modern application of my grade management tool application called Datagrades v1, this software design was made to incorporate cross-platform implementations to the app and make it accessible through the internet.",
+		"challenges": "Adapting a desktop application into the modern cross platform application was our main priority in this design. The design involved software engineering principles and was presented a small group of teachers for evaluation.",
+		"solutions": "We continuously improved our designs according to the comments and suggestions of our respondents. We also systemend our design to be as intuitive as possible to our targeted users.",
+		"role": "I served as the lead UI designer of our team as well as taking part in conceptualizing the architecture and software specifications of the design.",
+		"skills": "During the development of this software design, I was able to hone my skills in project prototyping, project management, and software development planning.",
+		"links": [
+			{
+				"image": "/assets/file-black.svg",
+				"link": "https://cooing-bookcase-727.notion.site/Datagrades-4933f37e83384445b281819db6649f52",
+				"name": "Software Design Documentations"
+			}
+		],
 		"pictures": [
 			"/assets/datagrades2/datagrades0.png",
 			"/assets/datagrades2/datagrades1.svg",
@@ -234,11 +236,11 @@
 		"icon": "/assets/inteletraf.svg",
 		"background": "/assets/inteletraf-bd.png",
 		"label": "/assets/inteletraf-label.svg",
-		"description": "",
-		"challenges": "",
-		"solutions": "",
-		"role": "",
-		"skills": "",
+		"description": "Inteletraf is a concept project that was pitched as one of the best project idea for our Technoprenueship class. It is a sophisticated Internet of Things (IOT) traffic system that was developed using engineering principles with software application prototypes.",
+		"challenges": "During the process of developing this project, we were only given a month of time to produce a high-fidelity design, a 3D model, and project specification documents.",
+		"solutions": "We managed to pull this through by making use of modern tools to aid our productivity as well as establishing better communication within the team.",
+		"role": "Intelletraf is a concept project idea that I have pitched in my Technoprenuership course. I was the CEO of my team that lead the development of the project's design as well as its 3D models.",
+		"skills": "My abilities in communication and public speaking have been greatly improved thanks to this project, which has also taught me a lot about pitching projects. In addition, the project gave me the opportunity to improve my project designing, particularly with regard to 3d models.",
 		"links": [
 			{
 				"image": "/assets/video.svg",
@@ -247,7 +249,7 @@
 			},
 			{
 				"image": "/assets/file-black.svg",
-				"link": "https://docs.google.com/document/d/1qdk68P_wstVkbkRGBHDu_2Amnm7bhDuqyZQoMUcrLC8/edit?usp=sharing",
+				"link": "https://cooing-bookcase-727.notion.site/InTeleTraf-9f9aea59ed984794a01d62c3935bf59d",
 				"name": "Documentations"
 			}
 		],
@@ -283,10 +285,11 @@
 		"icon": "/assets/cyberclock.svg",
 		"background": "/assets/cyberclock-bd.png",
 		"label": "/assets/cyberclock-label.svg",
-		"description": "",
-		"challenges": "",
-		"solutions": "",
-		"skills": "",
+		"description": "Cyberclock is a concept smart wall clock that I designed for a day out of hobby. The clock comes with a mobile application which I designed together with the 3d model of the device.",
+		"challenges": "Building the 3d model and coming up with the concept of the project was the most tasky part of this concept product.",
+		"solutions": "I am able to create the designs by searching for ideas on the internet regarding both the software application and the 3d models. During the difficult times, Dribble has been one of my closest friends.",
+		"skills": "With the help of this project, I was able to significantly improve my skills in rapid prototyping and fast project conceptualization.",
+		"role": "Because Cyberclock is a personal project that I worked on in my spare time, I was the sole designer of both the software and the 3D models that it contains.",
 		"pictures": [
 			"/assets/cyberclock/cyberclock0.png",
 			"/assets/cyberclock/cyberclock1.svg",

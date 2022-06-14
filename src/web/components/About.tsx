@@ -7,17 +7,13 @@ function About() {
 	const { scrollY } = useViewportScroll();
 	const [limit, setLimit] = useState(false);
 	const [vheight, setVHeight] = useState(window.innerHeight);
-	const x = useTransform(
-		scrollY,
-		[vheight * 0, vheight * 3.8, vheight * 3.9, vheight * 4],
-		[0, 0, 0, 500]
-	);
+	const x = useTransform(scrollY, [vheight * 0, vheight * 4, vheight * 4.1, vheight * 4.2], [0, 0, 0, 500]);
 	const [xVal, setXVal] = useState(0);
 
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
 			setXVal(x.get());
-			scrollY.get() >= vheight * 6.2 ? setLimit(true) : setLimit(false);
+			scrollY.get() >= vheight * 6.5 ? setLimit(true) : setLimit(false);
 		});
 		window.addEventListener('resize', () => {
 			setVHeight(window.innerHeight);
@@ -37,16 +33,10 @@ function About() {
 			<div className='about-scroll'>
 				<motion.div
 					animate={limit ? { x: '100%' } : { x: 0 }}
-					transition={
-						limit
-							? { duration: 1, type: 'tween' }
-							: { duration: 0.8, type: 'tween' }
-					}
+					transition={limit ? { duration: 1, type: 'tween' } : { duration: 0.8, type: 'tween' }}
 					className='about-scroll-wrapper'>
 					<AboutDesign x={xVal} />
-					<motion.h1
-						initial={{ opacity: 0 }}
-						animate={x.get() > 300 ? { opacity: 0 } : { opacity: 1 }}>
+					<motion.h1 initial={{ opacity: 0 }} animate={x.get() > 300 ? { opacity: 0 } : { opacity: 1 }}>
 						I am passionate of what I do, and I love sharing it with others
 					</motion.h1>
 				</motion.div>
@@ -59,16 +49,9 @@ function About() {
 				whileInView={{ opacity: 1 }}
 				transition={{
 					opacity: { duration: 1, type: 'tween' },
-					borderRight:
-						xVal >= 400
-							? { duration: 0.3, type: 'tween' }
-							: { duration: 0.1, type: 'tween' },
+					borderRight: xVal >= 400 ? { duration: 0.3, type: 'tween' } : { duration: 0.1, type: 'tween' },
 				}}
-				animate={
-					xVal >= 400
-						? { borderRight: '1rem groove #88a5a1' }
-						: { borderRight: '0rem groove #88a5a1' }
-				}
+				animate={xVal >= 400 ? { borderRight: '1rem groove #88a5a1' } : { borderRight: '0rem groove #88a5a1' }}
 				className='about-content'>
 				<motion.div
 					initial={{ opacity: 0, x: '-30%' }}
@@ -88,14 +71,10 @@ function About() {
 					<h1>About Me</h1>
 					<h2>Nash Uriel A. Tapayan</h2>
 					<h3>BS Computer Engineering Student</h3>
+					<p>I am a man of passion in his field, and am always looking for new experiences, opportunities to grow, and challenges to overcome.</p>
 					<p>
-						I am a man of passion in his field, and am always looking for new
-						experiences, opportunities to grow, and challenges to overcome.
-					</p>
-					<p>
-						I love learning new things and sharing my knowledge with other
-						people. My primary passions are mentoring others, writing code, and
-						taking photographs.
+						I love learning new things and sharing my knowledge with other people. My primary passions are mentoring others, writing code, and taking
+						photographs.
 					</p>
 				</motion.div>
 			</motion.div>
@@ -152,27 +131,35 @@ function About() {
 					</div>
 				</div>
 			</Parallax>
-			<Parallax speed={0} className='about-footer'>
+			<Parallax speed={0} className='about-footer' id='contact'>
 				<div className='about-footer-row1'>
 					<h1>Contact Me</h1>
-					<img src='/assets/nut-logo-white.svg'></img>
+					<img
+						src='/assets/nut-logo-white.svg'
+						onClick={() => {
+							document.querySelector('body')?.scrollIntoView({
+								behavior: 'smooth',
+								block: 'start',
+								inline: 'nearest',
+							});
+						}}></img>
 				</div>
 				<div className='about-footer-row2'>
 					<div className='about-footer-row2-col1'>
 						<div className='about-footer-row2-col1-links'>
 							<div className='about-footer-row2-col1-links-comp'>
 								<img src='/assets/github-white.svg' />
-								<a>github.com/taps-nash</a>
+								<a href='https://github.com/taps-nash'>github.com/taps-nash</a>
 							</div>
 							<div className='about-footer-row2-col1-links-comp'>
 								<img src='/assets/linkedin-white.svg' />
-								<a>linkedin.com/in/nash-tapayan</a>
+								<a href='https://www.linkedin.com/in/nash-tapayan/'>linkedin.com/in/nash-tapayan</a>
 							</div>
 						</div>
 						<div className='about-footer-row2-col1-links'>
 							<div className='about-footer-row2-col1-links-comp'>
 								<img src='/assets/facebook-white.svg' />
-								<a>facebook.com/nashtaps</a>
+								<a href='https://facebook.com/nashtaps'>facebook.com/nashtaps</a>
 							</div>
 							<div className='about-footer-row2-col1-links-comp'>
 								<img src='/assets/phone.svg' />
@@ -185,14 +172,14 @@ function About() {
 							<h1>Check out my portfolio repository here:</h1>
 							<div className='about-footer-row2-col2-links-comp'>
 								<img src='/assets/git.svg' />
-								<a>taps-nash/taps-portfolio</a>
+								<a href='https://github.com/taps-nash/taps-portfolio'>taps-nash/taps-portfolio</a>
 							</div>
 						</div>
 						<div className='about-footer-row2-col2-links'>
 							<h1>Download my resume here:</h1>
 							<div className='about-footer-row2-col2-links-comp'>
 								<img src='/assets/file.svg' />
-								<a>drive.google.com/resume</a>
+								<a href='https://drive.google.com/drive/folders/1q7oZLiPnrHchPUIkXriUdPWiQ-lfu-nf?usp=sharing'>drive.google.com/resume</a>
 							</div>
 						</div>
 					</div>
